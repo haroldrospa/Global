@@ -7,6 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
   }
   
   header {
@@ -25,6 +26,7 @@
   
   .logo img {
     width: 350px;
+    border-radius: 8px;
   }
   
   nav ul {
@@ -75,16 +77,18 @@
   .container {
     display: flex;
     align-items: center;
+    padding-inline: 50px;
+    background-color: #f2f2f2;
     }
 
   .img {
     width: 100px; /* Cambia el tamaño de la imagen según lo necesites */
     height: auto;
-    
    }
 
   .texto {
     flex: 1 ; /* Para que el texto ocupe todo el espacio restante */
+    margin-inline: 50px;
   }
 
   .texto p {
@@ -110,8 +114,10 @@
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #f2f2f2;
+    color: #333;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   
   
